@@ -38,7 +38,7 @@ dotenv.config();
 const app = express();
 
 // ✅ Proper CORS Configuration
-app.use(cors({ origin: "https://retrend-final-2.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://retrend-final-2-git-main-fuisonguests-projects.vercel.app", credentials: true }));
 
 app.use(bodyParser.json());
 
